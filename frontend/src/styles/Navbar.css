@@ -1,9 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
 .navbar{
     margin: 0;
     background-color: black;
     color: white;
-    padding: 2rem 1rem;
+    padding: 2rem 15rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    font-family: "calibri";
+    width: 100%;
+}
+#nav_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;  
+}
+
+#nav_left #logo img{
+    height: 9vh;
+    border-radius: 100%;
+}
+#nav_left #name #main{
+    font-size: 3vh;
+    color: white;  
+    text-transform: uppercase;
+}
+#nav_left #name #second{
+    font-weight: 100;
+    line-height: 4vh;
+    font-size: 3vh;
+    color: grey;
+    text-transform: uppercase;  
+}
+#nav_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3vw;
+}
+#nav_right img{
+    height: 7vh; 
+    margin-right: 2vh; 
+}
+#nav_right a{
+    color: white;
+    font-size: 3vh;
+    text-decoration: none;
 }

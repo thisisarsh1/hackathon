@@ -1,0 +1,37 @@
+.EventCard{
+    color: aliceblue;
+    height: 100vh;
+    background-image: url("/public/Squares.svg");
+}
+.head1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    position: relative;
+    z-index: 5;
+    align-items: center;
+  }
+  
+  .txt {
+    position: absolute;
+    z-index: 10; 
+    text-align: center;
+  
+    font-size: 3.7rem;
+    padding-top: 2.2rem;
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .box1 {
+    margin: 2rem;
+  }
+  .box2 {
+    margin: 2rem;
+  }
+  .box3 {
+    margin: 2rem;
+  }

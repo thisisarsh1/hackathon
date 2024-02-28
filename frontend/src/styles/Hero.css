@@ -1,0 +1,8 @@
+.hero{display: flex;
+   color: aliceblue;
+   height: 70vh;
+   text-align: center;
+   justify-content: center;
+   font-size: 6rem;
+   background-color: rgba(127, 255, 212, 0.481);
+}

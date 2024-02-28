@@ -1,8 +1,8 @@
 import React from 'react'
-import "../styles/navbar.css"
+import "/src/styles/Navbar.css"
 
 function Navbar() {
-    // check figma file for navbar
+
   return (
     <div className='navbar'>
       <div id="nav_left">

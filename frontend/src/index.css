@@ -12,5 +12,7 @@ a {
 
 body {
   margin: 0px;
+  background-image: url("/public/Confetti Shapes.svg");
+  background-repeat: repeat;
 }
 

@@ -1,37 +1,24 @@
 import React, { useState, useEffect } from 'react'
-import "../styles/MainPage.css"
-import Navbar from '../components/navbar'
+import "/src/styles/MainPage.css"
+import Hero from '/src/components/Hero.jsx'
+import Navbar from '/src/components/Navbar.jsx'
+import Abouts from '/src/components/Abouts.jsx'
+import EventCard from '/src/components/EventCard.jsx';
+import Outro from '/src/components/Outro.jsx';
+import Map from '/src/components/Map.jsx'
 
 function MainPage() {
-    // const [data, setData] = useState([])
-    // const [inputValue, setInputValue] = useState('')
-
-    // useEffect(() => {
-    //     console.log(data)
-    // }, [data])
-
-    // const handleChange = (e) => {
-    //     setInputValue(e.target.value)
-    // }
-
-    // const handleSubmit = (e) => {
-    //     e.preventDefault()
-    //     setData([...data, inputValue])
-    //     setInputValue('')
-    // }
+    
 
     return (
-        <div>
-            {/* This is the main page. All components go here
-            <form onSubmit={handleSubmit}>
-                <input type="text" placeholder='type your name' value={inputValue} onChange={handleChange} />
-                <button type="submit">Submit</button>
-            </form>
-            {data.map((item, index) => (
-                <div key={index}>{item}</div>
-            ))} */}
-
-             <Navbar />
+        <div >
+          
+             <Navbar></Navbar>
+            <Hero></Hero>
+            <Abouts></Abouts>
+            <EventCard></EventCard>
+            <Map></Map>
+            <Outro></Outro>
         </div>
     )
 }

@@ -6,3 +6,17 @@
    font-size: 6rem;
    background-color: rgba(127, 255, 212, 0.481);
 }
+
+.box{
+   height: 400px;
+   width: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10%;
+      padding: 10px;
+      background-color: rgba(127, 255, 212, 0.481);
+      border-radius: 10px;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}

@@ -1,7 +1,21 @@
-.map{
-height: 100vh;
-}
-.maps{
-    height: 5rem;
+.leaflet-container{
+    height:90vh;
     width: 50vw;
+    margin: 5vh;
+}
+.map{
+    display: flex;
+    justify-content: end;
+    height: 100vh;
+    align-items: center;
+    background-image: url("/public/Squares.svg");
+}
+.imgbox{
+   display: flex;
+   justify-content: center;
+align-items: center;
+}
+.vector{
+    width: 30vw;
+    margin-right: 7vw;
 }

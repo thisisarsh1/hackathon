@@ -10,11 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "framer-motion": "^11.0.8",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.6",
     "leaflet": "^1.9.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-leaflet": "^4.2.1"
+    "react-leaflet": "^4.2.1",
+    "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
@@ -26,4 +28,5 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "vite": "^5.0.8"
   }
+  
 }

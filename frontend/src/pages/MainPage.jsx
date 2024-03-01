@@ -6,7 +6,7 @@ import Abouts from '/src/components/Abouts.jsx'
 import EventCard from '/src/components/EventCard.jsx';
 import Outro from '/src/components/Outro.jsx';
 import Map from '/src/components/Map.jsx'
-
+// import BackgroundGradient from '/src/components/Test.jsx'
 function MainPage() {
     
 
@@ -19,6 +19,7 @@ function MainPage() {
             <EventCard></EventCard>
             <Map></Map>
             <Outro></Outro>
+            {/* <BackgroundGradient></BackgroundGradient> */}
         </div>
     )
 }

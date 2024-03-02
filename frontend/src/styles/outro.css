@@ -1,13 +1,15 @@
-.img{
-   
-
+.outro_img{
+   display: flex;
+   height: 100vh;
+margin-top: 3rem;
+justify-content: space-between;
 }
-.img1{
-width: 40%;
+.outro_img1{
+width: 30%;
 height: 70%;
 
 }
-.img2{
+.outro_img2{
     width: 60%;
     height: 70%;
 }

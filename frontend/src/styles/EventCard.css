@@ -1,3 +1,116 @@
+.EventCard{
+    color: aliceblue;
+    height: 100vh;
+    background-image: url("/public/Squares.svg");
+}
+.head1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+ 
+    position: relative;
+    z-index: 5;
+    align-items: center;
+ 
+  }
+  
+  .txt {
+    position: absolute;
+    z-index: 10; 
+    text-align: center;
+
+    font-size: 3.7rem;
+    padding-top: 2.2rem;
+  }
+  .boxs{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    margin-top: 3rem;
+    
+  }
+  
+  .box1 {
+    margin: .3rem;
+    width: 25vw;
+    object-fit: contain;
+  }
+  .box2 {
+    margin: .3rem;
+    width: 25vw;
+    object-fit: contain;
+  }
+  .box3 {
+    margin: .3rem;
+    width: 25vw;
+    object-fit: contain;
+    
+  }
+
+  .animated-border-box{
+    width:25.vw;
+    margin-left: 5.5vw;
+    position: absolute;
+    overflow: hidden; 
+    z-index: 0;
+    /* Border Radius */
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+  
+ 
+  
+  .animated-border-box:before {
+    content: '';
+    z-index: -2;
+  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    position: absolute;
+    width: 99999px;
+    height: 99999px;
+    background-repeat: no-repeat;
+   
+    /*border color, change middle color*/
+    background-image: conic-gradient(rgba(0,0,0,0), #00c9c9, rgba(0,0,0,0) 90%);
+    /* change speed here */
+    animation: rotate 4s linear infinite;
+  }
+  
+  .animated-border-box:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    /* border width */
+    left: 5px;
+    top: 5px;
+    /* double the px from the border width left */
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    /*bg color*/
+    background: #292a2e;
+    /*box border radius*/
+    border-radius: 7px;
+  }
+  
+  @keyframes rotate {
+    100% {
+      transform: translate(-50%, -50%) rotate(1turn);
+    }
+  }
+  
+.card{
+  display: flex;
+  justify-content: space-between;
+}
+#b2{
+  margin-left: 37vw;
+}
+#b3{
+  margin-left: 68.5vw;
+
+}
 .eventCard{
     height: 300px;
     width: 200px;

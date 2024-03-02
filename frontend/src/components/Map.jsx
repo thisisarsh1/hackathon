@@ -30,7 +30,7 @@ function Map(){
 
 
 
-        <MapContainer center={[19.0667, 72.826]} zoom={8} scrollWheelZoom={false}>
+        <MapContainer center={[19.0667, 72.826]} zoom={15} scrollWheelZoom={false}>
   <TileLayer
     attribution='&copy; <a https://api.maptiler.com/maps/satellite/tiles.json?key=bMEWXYfCjeUC5yYo4EOC'
     url="https://api.maptiler.com/maps/satellite/{z}/{x}/{y}.jpg?key=bMEWXYfCjeUC5yYo4EOC"

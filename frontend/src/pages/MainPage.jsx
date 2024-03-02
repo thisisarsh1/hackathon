@@ -19,7 +19,6 @@ function MainPage() {
             <Hero></Hero>
             <Abouts></Abouts>
             <EventCarda></EventCarda>
-            <Events></Events>
             <Map></Map>
             <Outro></Outro>
            

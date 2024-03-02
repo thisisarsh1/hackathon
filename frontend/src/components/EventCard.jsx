@@ -1,5 +1,5 @@
 import React from 'react'
-import "../styles/Eventcard.css"
+// import "../styles/Eventcard.css"
 
 function EventCard(props) {
     const { image, title } = props;

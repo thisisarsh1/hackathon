@@ -1,4 +1,6 @@
 import React from 'react'
+
+
 // import "../styles/Eventcard.css"
 
 function EventCard(props) {
@@ -10,6 +12,7 @@ function EventCard(props) {
             <h2>{title}</h2>
         </div>
     )
+
 }
 
 export default EventCard

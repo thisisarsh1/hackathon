@@ -7,7 +7,9 @@ import EventCarda from '/src/components/EventCarda.jsx';
 import Events from '../components/Events'
 import Outro from '/src/components/Outro.jsx';
 import Map from '/src/components/Map.jsx'
+
 import Bgimg from '/src/components/Background.jsx'
+
 // import BackgroundGradient from '/src/components/Test.jsx'
 function MainPage() {
     
@@ -21,7 +23,7 @@ function MainPage() {
             <EventCarda></EventCarda>
             <Map></Map>
             <Outro></Outro>
-           
+
             {/* <BackgroundGradient></BackgroundGradient> */}
         </div>
     )

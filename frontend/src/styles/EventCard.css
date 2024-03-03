@@ -31,16 +31,21 @@
   }
   
   .box1 {
+
     margin: .3rem;
+
     width: 25vw;
     object-fit: contain;
   }
   .box2 {
+
     margin: .3rem;
+
     width: 25vw;
     object-fit: contain;
   }
   .box3 {
+
     margin: .3rem;
     width: 25vw;
     object-fit: contain;
@@ -129,3 +134,4 @@
     font-size: 1.5rem;
     margin: 10px;
 }
+

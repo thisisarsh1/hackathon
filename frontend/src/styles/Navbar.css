@@ -1,11 +1,16 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;   
 }
 .navbar{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
 
-
+.navbar{
     color: white;
     height: 30vh;
     padding: 2rem 15rem;
@@ -16,7 +21,6 @@
     width: 100%;
 }
 #nav_left{
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,7 +46,6 @@
 #nav_right{
     display: flex;
     align-items: center;
-
     justify-content: space-between;
     gap: 3vw;
 }

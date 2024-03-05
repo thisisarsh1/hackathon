@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ccrcoeweb.apps.CcrcoewebConfig',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
